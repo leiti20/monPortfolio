@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leiticia Mouhoubi - Portfolio Développeur Web</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>Dev<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-menu">
+                <li><a href="#accueil" class="nav-link">Accueil</a></li>
+                <li><a href="#parcours" class="nav-link">Parcours</a></li>
+                <li><a href="#competences" class="nav-link">Compétences</a></li>
+                <li><a href="#projets" class="nav-link">Projets</a></li>
+                <li><a href="#documents" class="nav-link">Documents</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="accueil" class="hero">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="grid-pattern"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="badge-dot"></span>
+                Étudiante en Master Informatique
+            </div>
+            <h1 class="hero-title">
+                Future <span class="gradient-text">Développeuse Web</span>
+            </h1>
+            <p class="hero-description">
+                Passionnée par le code et les technologies modernes, je construis mon avenir
+                dans le développement web une ligne à la fois.
+            </p>
+            <div class="hero-cta">
+                <a href="#projets" class="btn btn-primary">
+                    <i class="fas fa-code"></i> Voir mes projets
+                </a>
+                <a href="https://github.com/leiti20" target="_blank" class="btn btn-outline">
+                    <i class="fab fa-github"></i> Mon GitHub
+                </a>
+            </div>
+            <div class="tech-stack-mini">
+                <span class="tech-pill">HTML/CSS</span>
+                <span class="tech-pill">Symfony</span>
+                <span class="tech-pill">Django</span>
+                <span class="tech-pill">React</span>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-window">
+                <div class="window-header">
+                    <div class="window-dot red"></div>
+                    <div class="window-dot yellow"></div>
+                    <div class="window-dot green"></div>
+                    <span class="window-title">portfolio.js</span>
+                </div>
+                <div class="window-content">
+                    <pre><code><span class="code-keyword">const</span> <span class="code-variable">developer</span> = {
+  <span class="code-property">name</span>: <span class="code-string">"Leiticia Mouhoubi"</span>,
+  <span class="code-property">status</span>: <span class="code-string">"En formation"</span>,
+  <span class="code-property">passion</span>: <span class="code-string">"Créer le web de demain"</span>,
+  <span class="code-property">learning</span>: [<span class="code-string">"React"</span>, <span class="code-string">"Kubernetes"</span>],
+  <span class="code-function">sayHi</span>: () => <span class="code-string">"Hello World! 👋"</span>
+};
+
+developer.<span class="code-function">sayHi</span>();</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Parcours Section -->
+    <section id="parcours" class="parcours">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mon parcours</span>
+                <h2 class="section-title">Mes <span class="gradient-text">Formations</span></h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2025 - 2027</span>
+                        <h3>Master Informatique - Génie de l'informatique Logiciel</h3>
+                        <p class="timeline-school">Université de Rouen Normandie</p>
+                        <p>Spécialisation en développement logiciel, architecture applicative et méthodologies agiles.</p>
+                        <div class="timeline-tags">
+                            <span>Microservices</span>
+                            <span>Cloud Computing</span>
+                            <span>DevOps</span>
+                            <span>Design Patterns</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">2021 - 2024</span>
+                        <h3>Licence Informatique</h3>
+                        <p class="timeline-school">Université Abderrahmane-Mira de Béjaïa (Algérie)</p>
+                        <p>Fondamentaux de l'informatique : algorithmique, programmation orientée objet, bases de données.</p>
+                        <div class="timeline-tags">
+                            <span>Java</span>
+                            <span>Python</span>
+                            <span>SQL</span>
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Auto-formation continue</span>
+                        <h3>Développement Web & IA</h3>
+                        <p class="timeline-school">Apprentissage autonome</p>
+                        <p>Technologies web modernes, intelligence artificielle et computer vision à travers des projets pratiques.</p>
+                        <div class="timeline-tags">
+                            <span>React</span>
+                            <span>OpenCV</span>
+                            <span>Docker/Kubernetes</span>
+                            <span>Symfony</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Compétences Section -->
+    <section id="competences" class="competences">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Mes outils</span>
+                <h2 class="section-title">Stack <span class="gradient-text">Technique</span></h2>
+            </div>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Tailwind CSS</span>
+                        <span class="skill-tag">Bootstrap</span>
+                        <span class="skill-tag">Twig</span>
+                        <span class="skill-tag">Responsive Design</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Symfony</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">PHP</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-database"></i> Bases de données</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">MariaDB</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">TimescaleDB</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Outils & DevOps</h3>
+                    <div class="tools-grid">
+                        <div class="tool-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-gitlab"></i>
+                            <span>GitLab</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-dharmachakra"></i>
+                            <span>Kubernetes</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Grafana</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-stream"></i>
+                            <span>Kafka</span>
+                        </div>
+                        <div class="tool-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Postman</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-brain"></i> IA & Computer Vision</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">OpenCV</span>
+                        <span class="skill-tag">MediaPipe</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Apache Hadoop</span>
+                        <span class="skill-tag">Apache Hive</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projets Section -->
+    <section id="projets" class="projets">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Portfolio</span>
+                <h2 class="section-title">Mes <span class="gradient-text">Projets</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-car"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Master 1 - Microservices</span>
+                        <h3>Système de Gestion de Flotte Automobile</h3>
+                        <p>Plateforme cloud-native basée sur une architecture microservices avec API REST/GraphQL. Projet en binôme avec orchestration Kubernetes et monitoring Grafana.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Spring Boot</span>
+                            <span>Django</span>
+                            <span>Symfony</span>
+                            <span>PostgreSQL</span>
+                            <span>TimescaleDB</span>
+                            <span>Docker</span>
+                            <span>Kubernetes</span>
+                            <span>Kafka</span>
+                            <span>Grafana</span>
+                        </div>
+                        <a href="https://github.com/leiti20" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir mon GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-sort-amount-down"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Master 1 - Algorithmique</span>
+                        <h3>Algorithmes de Trie & Recherche (C)</h3>
+                        <p>Implémentation d'algorithmes classiques de tri (QuickSort, HeapSort, MergeSort) et de l'algorithme d'Aho-Corasick pour la recherche de motifs. Optimisation avec matrices et tables de hachage.</p>
+                        <div class="project-tech">
+                            <span>C</span>
+                            <span>Algorithmes de Tri</span>
+                            <span>Aho-Corasick</span>
+                            <span>Tables de Hachage</span>
+                            <span>Makefile</span>
+                        </div>
+                        <a href="https://github.com/leiti20/Aho-Corasick" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Master 1 - Algorithmique</span>
+                        <h3>Algorithmes de Trie (Java)</h3>
+                        <p>Implémentation en Java d'algorithmes de tri avancés et résolution de problèmes d'optimisation (Sac à dos, Rendu de monnaie) par programmation dynamique.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>QuickSort</span>
+                            <span>MergeSort</span>
+                            <span>Programmation Dynamique</span>
+                            <span>Algorithmes Gloutons</span>
+                        </div>
+                        <a href="https://github.com/leiti20/Trie_Algorithmique" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Personnel - IA</span>
+                        <h3>Système de Reconnaissance Faciale</h3>
+                        <p>Application de détection faciale en temps réel capable d'estimer l'âge et d'identifier le genre des personnes avec OpenCV et NumPy.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>NumPy</span>
+                            <span>Computer Vision</span>
+                        </div>
+                        <a href="https://github.com/leiti20/Facial-Recognition" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-hand-paper"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Personnel - Computer Vision</span>
+                        <h3>Hand Detection</h3>
+                        <p>Système de détection et suivi des mains en temps réel utilisant des techniques de computer vision.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>OpenCV</span>
+                            <span>MediaPipe</span>
+                        </div>
+                        <a href="https://github.com/leiti20/hand-detection" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Académique</span>
+                        <h3>Projet E-commerce</h3>
+                        <p>Plateforme de commerce en ligne avec interface utilisateur moderne et responsive.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/leiti20/projet-Ecommerce" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Web</span>
+                        <h3>Plateforme Web Anaglobine</h3>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://github.com/leiti20/plateforme-web-Anaglobine" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-plane"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <span class="project-type">Projet Web</span>
+                        <h3>TripGo</h3>
+                        <p>Application de planification de voyages et gestion d'itinéraires touristiques.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>HTML/CSS</span>
+                        </div>
+                        <a href="https://github.com/leiti20/tripgo" target="_blank" class="project-github-btn">
+                            <i class="fab fa-github"></i> Voir sur GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section id="documents" class="documents">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Téléchargements</span>
+                <h2 class="section-title">Mes <span class="gradient-text">Documents</span></h2>
+            </div>
+            <div class="documents-grid">
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-file-pdf"></i>
+                    </div>
+                    <div class="document-content">
+                        <h3>Curriculum Vitae</h3>
+                        <p>Mon CV complet avec mes expériences, formations et compétences techniques.</p>
+                        <a href="cv.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Télécharger le CV
+                        </a>
+                    </div>
+                </div>
+                <div class="document-card">
+                    <div class="document-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <div class="document-content">
+                        <h3>Lettre de Motivation</h3>
+                        <p>Ma lettre de motivation personnalisée pour une alternance en développement web.</p>
+                        <a href="lettre-motivation.pdf" download class="btn btn-primary">
+                            <i class="fas fa-download"></i> Télécharger la lettre
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section - Réseaux Sociaux Uniquement -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Contact</span>
+                    <h2>Restons <span class="gradient-text">connectés</span></h2>
+                    <p>Je suis actuellement à la recherche d'une alternance en développement web pour septembre 2026.</p>
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:leiticiamouhoubi@hotmail.com">leiticiamouhoubi@hotmail.com</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div>
+                                <span>LinkedIn</span>
+                                <a href="https://linkedin.com/in/leiticia-mouhoubi" target="_blank">linkedin.com/in/leiticia-mouhoubi</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div>
+                                <span>GitHub</span>
+                                <a href="https://github.com/leiti20" target="_blank">github.com/leiti20</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <span>Localisation</span>
+                                <p>Rouen, France</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-bracket">&lt;</span>Leiticia<span class="logo-bracket">/&gt;</span>
+                    <p>Étudiante en Master Informatique</p>
+                    <p>En recherche d'alternance</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#accueil">Accueil</a>
+                    <a href="#parcours">Parcours</a>
+                    <a href="#competences">Compétences</a>
+                    <a href="#projets">Projets</a>
+                    <a href="#documents">Documents</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/leiti20" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/leiticia-mouhoubi" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Leiticia Mouhoubi - Fait avec <i class="fas fa-heart"></i> et beaucoup de <i class="fas fa-coffee"></i></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

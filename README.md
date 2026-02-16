@@ -2,7 +2,7 @@
 
 Portfolio personnel de développeuse web en Master Informatique.
 
- **[Voir le site](https://leiti20.github.io/monPortfolio)**
+ **[mon portfolio](https://leiti20.github.io/monPortfolio)**
 
 ## Contact
  leiticiamouhoubi@hotmail.com  
